@@ -10,3 +10,5 @@ idf.py build flash monitor
 ```
 
 A matching panic is a store-access fault, `MTVAL` `0x500d2000`, `MEPC` inside `usj_fifo_write`. Reset the board to run it again.
+
+The capture and the fault analysis are in [ISSUE.md](ISSUE.md).
